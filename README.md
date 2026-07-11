@@ -1,16 +1,79 @@
-# React + Vite
+# 💰 Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern expense tracker application built with React.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- ➕ Add new income and expense transactions
+- ❌ Delete transactions
+- 💰 Calculate current balance
+- 📈 Track total income
+- 📉 Track total expenses
+- 💾 Persistent data with LocalStorage
+- 📱 Responsive user interface
 
-## React Compiler
+## 🛠️ Technologies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript (ES6+)
+- Vite
+- CSS3
+- LocalStorage
 
-## Expanding the ESLint configuration
+## 📸 Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<img width="1887" height="911" alt="Ekran görüntüsü 2026-07-11 122524" src="https://github.com/user-attachments/assets/51bff753-6fec-4546-9159-0e66ce7c381f" />
+
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yigityilmaz16/expense-tracker.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project:
+
+```bash
+npm run dev
+```
+
+## 📂 Project Structure
+
+```
+src/
+ ├── components/
+ │   ├── Header
+ │   ├── Balance
+ │   ├── IncomeExpense
+ │   ├── Transaction
+ │   └── AddTransaction
+ ├── App.jsx
+ └── main.jsx
+```
+
+## 🎯 What I Learned
+
+While building this project, I practiced:
+
+- React component architecture
+- Props and state management
+- useState & useEffect
+- CRUD operations
+- Array methods (map, filter, reduce)
+- LocalStorage integration
+- Form handling
+- Responsive UI development
+
+## 👨‍💻 Author
+
+Yiğit Yılmaz
+
+GitHub: https://github.com/yigityilmaz16
